@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Madimi+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    display: block;
+    color: #f5efef;
+    text-decoration: none;
+    font-family: "Madimi One", sans-serif;
+}
+.bg{
+    position: relative;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.bg1{
+    width: 750px;
+    height: 1344px;
+    position: relative; 
+    margin: 0px auto;
+
+}
+.bg2{
+    width: 750px;
+    height: 1344px;
+    position: relative; 
+    margin: 0px auto;
+    z-index: 999;
+    background: #ffffff;
+}
+.index{
+    width: 750px;
+    display: block;
+    position: center;
+    top: 0px;
+    left: 0px;
+}
+
+.not{
+    width: 750px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    top: 15%;
+}
+.beauty{
+    width: 750px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    color: #c82a99;
+    top: 20%;
+}
+.WIB{
+    width: 54%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #805c5c;
+    top: 32%; 
+  
+  
+}
+.WIB1{
+    padding: 10px  0px;
+    border-radius: 40px;
+    background: #eeaecf;
+    animation: scaleAnimation 2s infinite; 
+}
+.fStyle{
+    position: absolute;
+   
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    background: #ffffff;
+    color: rgb(15, 20, 19);
+  
+    padding: 10px  20px;
+    border-radius:20px;
+}
+.fStyle1{
+    left: 6%;
+    top: 50%; 
+    transform: rotate(-45deg); 
+}
+.fStyle2{
+    left: 75%;
+    top: 45%; 
+    transform: rotate(45deg); 
+}
+.fStyle3{
+    left: 8%;
+    top: 65%; 
+    transform: rotate(135deg); 
+}
+.fStyle4{
+    left: 20%;
+    top: 70%; 
+    transform: rotate(20deg); 
+}
+.fStyle5{
+    left: 66%;
+    top: 55%; 
+    transform: rotate(15deg); 
+}
+.fStyle6{
+    left: 55%;
+    top: 85%; 
+    transform: rotate(-15deg); 
+}
+@keyframes scaleAnimation {  
+    0% {  
+      transform: scale(1); 
+    }  
+    50% {  
+      transform: scale(1.2);
+    }  
+    100% {  
+      transform: scale(1); 
+    }  
+  }  
+  .a{
+    display: block;
+    width: 280px;
+    margin-bottom: 20px;
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+    position: relative;
+    z-index: -1;
+  }
+  #pList{
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .aFont{
+    position: absolute;
+    width: 750px;
+    text-align: center;
+    line-height: 5;
+    color: #000000;
+    top: 20%;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+  }
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(2px); }
+  }
